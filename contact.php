@@ -1,7 +1,19 @@
 <form action="mailto:damian.terebun@gmail.com" method="post">
-<label for="email">Email:</label><input type="email" name="email">
-<label for="name">Name:</label><input type="text" name="name">
-<label for="topic">Topic:</label><input type="text" name="topic">
-<label for="message">Message:</label><textarea name="message" rows="5" wrap="virtual"></textarea>
-<button type="submit">Send</button>
+<div class="input-group">
+  <span class="input-group-addon" id="email">Email:</span>
+  <input type="text" class="form-control" placeholder="Your email" aria-describedby="email">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="name">Name:</span>
+  <input type="text" class="form-control" placeholder="Your name" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="subject">Subject:</span>
+  <input type="text" class="form-control" placeholder="Subject" aria-describedby="subject">
+</div>
+<div class="form-group">
+    <label for="message">Message:</label>
+    <textarea class="form-control" id="message" rows="5"></textarea>
+  </div>
+<button type="submit" class="btn btn-primary">Send</button>
 </form>
