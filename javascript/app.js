@@ -1,6 +1,4 @@
 function test() {
-    console.log("test!!! more test!!!");
+
+    console.log("test!!!");
 }
-
-var newVar = "Test new Test!!!";
-
