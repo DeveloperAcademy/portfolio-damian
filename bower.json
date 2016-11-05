@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-damian",
+  "homepage": "https://github.com/DeveloperAcademy/portfolio-damian",
+  "authors": [
+    "Adrian",
+    "Stanisław",
+    "Damian",
+    "Dominika",
+    "Marcin"
+  ],
+  "description": "Portfolio for Damian",
+  "main": "index.html",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
