@@ -12,8 +12,8 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!--Fontello CSS-->
-    <link rel="stylesheet" href="fontello\css\fontello.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
     <!--screen CSS-->
-
+    <link rel="stylesheet" href="stylesheets/screen.css">
 </head>
 <body>
