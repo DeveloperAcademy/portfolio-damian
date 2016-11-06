@@ -6,7 +6,7 @@ require_once "includes/functions.php";
 
 get_header();
 
-$page = $_GET['p'];
+$page = isset($_GET['p']) ? $_GET['p'] : '';
 switch ($page) {
     case "contact":
         get_contact();
