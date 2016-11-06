@@ -1,3 +1,8 @@
+<i class=".icon-facebook-rect"></i>
+<i class=".icon-github"></i>
+<i class=".icon-linkedin-rect"></i>
+<a href="#body" id="go-top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+<span>@DeveloperAcademy 2016 | All rights reserved</span>
 <!--jQuery -->
 <script src="bower_components/jquery/dist/jquery.min.js?ver=3.1.1"></script>
 <!--Bootstrap JS-->
