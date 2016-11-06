@@ -1,3 +1,47 @@
+body {
+    background-color: #88d488;
+}
 
+.input-group, .form-group, .btn {
+	margin: 5px;
+}
+
+.btn {
+	background-color: #2e872e;
+	color: #ffffff;
+}
+
+.input-group-addon {
+	background-color: #2e872e;
+	color: #ffffff;
+}
+
+i {
+	font-size: 30px;
+	margin: 5px;
+}
+
+footer {
+	background-color: #59b359;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px
+}
+
+.icon-facebook-rect {
+	color: #3b5998;
+}
+
+.icon-linkedin-rect {
+	color: #0077b5;
+}
+
+#go-top {
+	color: #000000;
+	position: absolute;
+	right: 0px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
 
 /*# sourceMappingURL=screen.css.map */
