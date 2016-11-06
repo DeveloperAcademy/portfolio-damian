@@ -1,20 +1,19 @@
 $(document).ready(function () {
-    new goTop($('#go-top')).init();
+    new initSmoothScrolling();
 });
 
 
-var goTop = (function () {
-    function goTop(object) {
-        this.object = object;
-    }
+var initSmoothScrolling = (function () {
+    $('a[href^="#"]').on('click', function (event) {
 
-    goTop.prototype.init = function () {
-        return this.object.on('click', function (event) {
+        var target = $($(this).attr('href'));
+
+        if (target.length) {
             event.preventDefault();
-            return $('html, body').animate({
+            $('html, body').animate({
                 scrollTop: target.offset().top
             }, 500);
-        });
-    };
-    return goTop;
+        }
+
+    });
 })();
