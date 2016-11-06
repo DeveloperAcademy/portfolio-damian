@@ -4,16 +4,18 @@ $(document).ready(function () {
 
 
 var initSmoothScrolling = (function () {
-    $('a[href^="#"]').on('click', function (event) {
+    function initSmoothScrolling() {
+        $('a[href^="#"]').on('click', function (event) {
+            var target;
+            target = $($(this).attr('href'));
+            if (target.length) {
+                event.preventDefault();
+                return $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+            }
+        });
+    }
 
-        var target = $($(this).attr('href'));
-
-        if (target.length) {
-            event.preventDefault();
-            $('html, body').animate({
-                scrollTop: target.offset().top
-            }, 500);
-        }
-
-    });
+    return initSmoothScrolling;
 })();

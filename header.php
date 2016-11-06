@@ -16,4 +16,4 @@
     <!--screen CSS-->
     <link rel="stylesheet" href="stylesheets/screen.css">
 </head>
-<body>
+<body id="body">
