@@ -67,7 +67,7 @@ if (!empty($form_data)) {
                 ?>
                 <form action="index.php?p=contact" method="post">
                     <div class="form-group">
-                        <label for="input-email">Email address</label>
+                        <label for="input-email">Email address:</label>
                         <input value="<?php echo $form_data['email'] ?>" type="email" class="form-control"
                                id="input-email"
                                placeholder="Yours email" name="email">
@@ -89,8 +89,13 @@ if (!empty($form_data)) {
                               rows="5"
                               placeholder="Type your message here"><?php echo $form_data['message'] ?></textarea>
                     </div>
+                    <div class="form-group">
+                        <label for="input-name">What is the capital of France?</label>
+                        <input value="<?php  ?>" type="text" class="form-control" id="input-answer"
+                               placeholder="Your answer" name="answer">
+                    </div>
                     <div class="form-group text-center">
-                        <button type="submit" class="btn btn-primary text-center">Send</button>
+                        <button type="submit" class="btn btn-primary button-send">Send</button>
                     </div>
                 </form>
             <?php endif; ?>
