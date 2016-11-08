@@ -89,6 +89,11 @@ if (!empty($form_data)) {
                               rows="5"
                               placeholder="Type your message here"><?php echo $form_data['message'] ?></textarea>
                     </div>
+                    <div class="form-group">
+                        <label for="input-name">What is the capital of France?</label>
+                        <input value="<?php  ?>" type="text" class="form-control" id="input-answer"
+                               placeholder="Your answer" name="answer">
+                    </div>
                     <div class="form-group text-center">
                         <button type="submit" class="btn btn-primary button-send">Send</button>
                     </div>
