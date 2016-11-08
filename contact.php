@@ -1,4 +1,5 @@
 <?php
+$good_answer = "Paris";
 $form_data = isset($_POST) ? $_POST : array();
 $errors = array();
 $send = false;
@@ -17,6 +18,9 @@ if (!empty($form_data)) {
     }
     if (empty($form_data['message'])) {
         $errors['message'] = "Message in required";
+    }
+    if (strcasecmp($form_data['answer'], $good_answer) != 0) {
+        $errors['answer'] = "The answer is incorrect! The correct answer is \"Paris\"";
     }
     if (empty($errors)) {
         $to = 'damian.terebun@gmail.com';
@@ -37,6 +41,11 @@ if (!empty($form_data)) {
         }
     }
 
+} else {
+    $form_data['email'] = '';
+    $form_data['subject'] = '';
+    $form_data['message'] = '';
+    $form_data['name'] = '';
 }
 ?>
 
@@ -91,7 +100,7 @@ if (!empty($form_data)) {
                     </div>
                     <div class="form-group">
                         <label for="input-name">What is the capital of France?</label>
-                        <input value="<?php  ?>" type="text" class="form-control" id="input-answer"
+                        <input type="text" class="form-control" id="input-answer"
                                placeholder="Your answer" name="answer">
                     </div>
                     <div class="form-group text-center">
