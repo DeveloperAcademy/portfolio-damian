@@ -16,6 +16,16 @@ function get_contact()
     require_once ABS_PATH . "/contact.php";
 }
 
+function get_front_page()
+{
+    require_once ABS_PATH . "/front-page.php";
+}
+
+function get_projects()
+{
+    require_once ABS_PATH . "/projects.php";
+}
+
 
 function clear_input($data)
 {

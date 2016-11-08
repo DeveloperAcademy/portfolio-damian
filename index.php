@@ -11,9 +11,11 @@ switch ($page) {
     case "contact":
         get_contact();
         break;
+    case "projects":
+        get_projects();
+        break;
     default:
-        echo "<h1>Index page</h1>";
-        echo '<a href="index.php?p=contact">Go to contact</a>';
+        get_front_page();
 }
 
 get_footer();

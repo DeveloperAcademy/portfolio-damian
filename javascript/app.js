@@ -3,7 +3,7 @@ $(document).ready(function () {
 });
 
 
-var initSmoothScrolling = (function ($) {
+var initSmoothScrolling = (function () {
     function initSmoothScrolling() {
         $('a[href^="#"]').on('click', function (event) {
             var target;
@@ -18,4 +18,4 @@ var initSmoothScrolling = (function ($) {
     }
 
     return initSmoothScrolling;
-})(jquery);
+})();
