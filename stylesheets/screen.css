@@ -4,6 +4,34 @@ body {
     padding-bottom: 70px;
 }
 
+.modal-top {
+    background-color: #59b359;
+}
+
+.modal-inside {
+    background-color: #88d488;
+}
+
+.modal-bottom {
+    height: 0;
+}
+
+.project-img {
+    height: 250px;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.project-img-modal {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.project-description {
+    margin: 5px 0;
+}
+
 .button-send {
     background-color: #2e872e;
     color: #ffffff;
@@ -45,18 +73,4 @@ footer {
     bottom: 45px;
 }
 
-.hiddenElement {
-	display:none;
-}
-
-.sliderContainer {
-	margin-top:22px;
-	height:300px;
-	background-color:#444444;
-}
-
-.gifStyle {
-	text-align:center;
-	margin-top: 70px;
-}
 /*# sourceMappingURL=screen.css.map */
