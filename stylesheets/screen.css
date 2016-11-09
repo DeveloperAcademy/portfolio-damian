@@ -1,35 +1,82 @@
 body {
     background-color: #88d488;
     position: relative;
-    padding-bottom: 70px;
+}
+
+.project-title {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+@media screen and (min-width: 768px) {
+    .project-title {
+        width: 100%;
+        max-width: 500px;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .project-title {
+        width: 100%;
+        max-width: 500px;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .project-title {
+        width: 100%;
+        max-width: 500px;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.project-img {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.project-img:hover {
+    -webkit-transform: rotate(3deg); /* Safari */
+    transform: rotate(3deg);
+}
+
+.modal-title {
+    font-weight: bold;
 }
 
 .modal-top {
     background-color: #59b359;
+    border-radius: 6px 6px 0 0;
 }
 
 .modal-inside {
     background-color: #88d488;
-}
-
-.modal-bottom {
-    height: 0;
-}
-
-.project-img {
-    height: 250px;
-    width: 250px;
-    margin: 10px auto;
+    border-radius: 0 0 6px 6px;
 }
 
 .project-img-modal {
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
 }
 
 .project-description {
     margin: 5px 0;
+    text-align: justify;
 }
 
 .button-send {
@@ -47,10 +94,7 @@ footer {
     text-align: center;
     padding: 5px;
     padding-top: 10px;
-    width: 100%;
-    height: 70px;
-    position: absolute;
-    bottom: 0px;
+
 }
 
 .icon-facebook-rect {
