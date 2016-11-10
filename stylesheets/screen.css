@@ -1,6 +1,82 @@
 body {
-    background-color: #88d488;
     position: relative;
+}
+
+//styles for front-page.php
+
+//. {
+    //background image for each section on page
+//    background-color:red ; // <- i dont know why but without it, background-url doesnt work.. 
+//    background-image: url("../img/front-page-wallpaper.jpg");
+//    background-repeat: no-repeat;
+//    background-size: 100% 100%;
+//}
+
+.front-page_wallpaper{
+    background-image: url("../img/front-page-wallpaper.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin-top:-20px;
+    width:100%;
+    height:100%;
+}
+.front-page_logoText {
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);  
+    margin-bottom:35px;
+}
+
+.front-page-leftText {
+    padding:100px;
+    padding-top:80px;
+    line-height:30px;
+    letter-spacing:1px;
+    font-size:20px;
+    font-weight:900;
+    color:#EEEEEE;
+    margin-top:20px;
+    border-right: 3px dotted #EEEEEE;
+    height:300px;
+}
+
+.front-page_damianPhoto {
+    width:200px;
+    heigth:200px;
+    margin-left:100px;
+    padding-top: 70px;
+}
+
+.front-page_sliderStyles {
+    width:auto;
+    height:200px;
+
+    -webkit-filter: brightness(0.8);
+    -moz-filter: brightness(0.8);
+    -o-filter: brightness(0.8);
+    -ms-filter: brightness(0.8);
+    filter: brightness(0.8);
+
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.front-page_textWithoutBlur {
+    color:#EEEEEE;
+    font-size:30px;
+    font-weight:bold;
+    z-index:9999;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    text-shadow: 3px 1px 0px rgba(150, 150, 150, 1);
+}
+
+.navbar-styles {
+    margin-bottom:0;
 }
 
 .project-title {
@@ -90,6 +166,8 @@ body {
 }
 
 footer {
+
+    width:100%;
     background-color: #59b359;
     text-align: center;
     padding: 5px;
@@ -118,3 +196,4 @@ footer {
 }
 
 /*# sourceMappingURL=screen.css.map */
+
