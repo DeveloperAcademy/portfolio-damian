@@ -1,4 +1,5 @@
 body {
+    background-color: #88d488;
     position: relative;
 }
 
@@ -123,6 +124,7 @@ body {
     margin: 10px auto;
     cursor: pointer;
     transition: transform 0.3s;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .project-img:hover {
