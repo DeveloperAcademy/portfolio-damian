@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "111Very very long Project title",
+      "img_src": "img/dummy_project_img.jpg",
+      "img_alt": "project",
+      "description": "1111Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vehicula sollicitudin. Vivamus viverra eu tellus eget rhoncus. Nullam lorem velit, sagittis nec eros ac, finibus interdum ante. Proin in pulvinar mauris, pellentesque blandit tellus. Proin lacinia massa augue, at posuere risus suscipit nec. Integer tincidunt odio sit amet convallis hendrerit. Donec ut eleifend est. Quisque vitae lacinia lectus, vel dictum nibh. Etiam diam nunc, venenatis vitae arcu ac, aliquet feugiat arcu."
+    },
+    {
+      "title": "222Very very long Project title",
+      "img_src": "img/dummy_project_img.jpg",
+      "img_alt": "project",
+      "description": "22222Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida vehicula sollicitudin. Vivamus viverra eu tellus eget rhoncus. Nullam lorem velit, sagittis nec eros ac, finibus interdum ante. Proin in pulvinar mauris, pellentesque blandit tellus. Proin lacinia massa augue, at posuere risus suscipit nec. Integer tincidunt odio sit amet convallis hendrerit. Donec ut eleifend est. Quisque vitae lacinia lectus, vel dictum nibh. Etiam diam nunc, venenatis vitae arcu ac, aliquet feugiat arcu."
+    }
+  ]
+}
