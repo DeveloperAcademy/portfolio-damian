@@ -1,0 +1,65 @@
+body {
+	background-image: url("../img/wallpaper.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	width:100%;
+	color:white;
+}
+
+.navbar-inverse {
+	background-color:rgba(30, 32, 34,.6);
+	border:none;
+	border-radius:0;
+		.navbar-nav {
+			li {
+				a {
+					transition:0.3s;
+					color:white;
+					&:hover {
+						color:#FCC90B;
+					}
+				}
+			}
+		}
+}
+
+.content {
+	padding: 30px 220px;
+	.content-styles {
+		padding: 30px 0;
+		text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+	}
+}
+
+.buttons {
+	margin-bottom:85px;
+	.buttons-styles {
+		width:100px;
+		//text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+		border:3px solid white;
+		background:transparent;
+		width:60%;
+		height:70px;
+		font-size:30px;
+		transition:0.3s;
+		&:hover {
+			border:3px solid #FCC90B;
+			color:#FCC90B;
+		}
+	}
+}
+
+footer {
+	.footer-styles {
+		padding-top:5px;
+	}
+	.footer-socials {
+		text-align:right;
+	}
+	padding:7px;
+	background:#222222;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+}
