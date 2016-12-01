@@ -18,7 +18,7 @@
 </head>
 <body id="body">
 
-<nav class="navbar navbar-default navbar-styles">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -29,17 +29,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand" href="?p=front-page">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="?p=front-page">Front-page</a></li>
+            <ul class="nav navbar-nav navbar-right 	">
                 <li><a href="?p=projects">Projects</a></li>
                 <li><a href="?p=contact">Contact</a></li>
-
             </ul>
         </div>
     </div>
 </nav>
-

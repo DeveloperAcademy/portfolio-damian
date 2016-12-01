@@ -1,0 +1,143 @@
+$padding-top: 70px
+$padding-bottom: 100px
+
+html
+  font-size: 16px
+
+body
+  background: url("./../img/wallpaper.jpg")
+  color: #FFF
+  min-height: 100%
+  padding-top: 70px
+  padding-bottom: 100px
+  position: relative
+  a
+    color: #FFFFFF
+    &:hover
+      color: #ffff00
+
+img
+  max-width: 100%
+
+textarea
+  resize: vertical
+
+.navbar-inverse
+  background-color: rgba(30, 32, 34, 0.6)
+  border: none
+  border-radius: 0
+  .navbar-nav
+    li
+      a
+        transition: 0.3s
+        color: white
+        &:hover
+          color: #FCC90B
+
+.page-footer
+  position: absolute
+  right: 0
+  bottom: 0
+  left: 0
+  .navbar
+    margin-bottom: 0
+    border-radius: 0
+  .navbar-right
+    text-align: center
+  .links
+    li
+      display: inline-block
+      a
+        font-size: 1.2rem
+
+.front-page
+  display: flex
+  min-height: calc(100vh - #{$padding-bottom} - #{$padding-top})
+  flex-wrap: wrap
+  justify-content: center
+  align-content: center
+  text-align: center
+  padding: 10px 10px 25px
+
+.welcome-div
+  width: 100%
+
+.welcome-href
+  a
+    font-size: 2.4em
+    display: inline-block
+    margin: 10px 30px
+    padding: 5px 35px
+    background: rgba(200, 200, 200, 0.07)
+    border-radius: 15px
+    transition: color .1s linear, background .2s linear
+    &:hover
+      background: rgba(255, 255, 255, 0.15)
+      text-decoration: none
+      color: #c0c0c0
+
+.welcome-paragraph
+  font-size: 1.5rem
+  max-width: 1000px
+  width: 100%
+  padding-left: 25px
+  padding-right: 25px
+  margin: auto auto 50px
+
+.welcome-text
+  font-size: 4rem
+  color: #929292
+  text-shadow: 1px 1px 2px #ffffff
+  width: 100%
+  padding-bottom: 20px
+
+@media screen and (max-width: 650px)
+  .welcome-text
+    font-size: 2rem
+  .welcome-paragraph
+    font-size: 1rem
+  .welcome-href
+    a
+      font-size: 1.7em
+
+.page-title
+  font-size: 3em
+  text-align: center
+  padding-bottom: 50px
+
+.projects
+  .project
+    cursor: pointer
+    .project-img
+      transition: transform .2s ease-in-out
+    .project-title
+      transition: color .2s linear
+    &:hover
+      .project-img
+        transform: rotate(1deg)
+      .project-title
+        color: #868686
+  .project-title
+    text-align: center
+    font-size: 1.2em
+    margin: 0 0 50px
+  .project-img
+    max-width: 250px
+    padding: 15px
+
+.project-img-modal
+  max-width: 250px
+  width: 100%
+  padding-bottom: 50px
+
+.modal-inside, .modal-content
+  background-color: #373737
+
+.form-inverse
+  input, textarea
+    background: rgba(16, 16, 16, 0.93)
+    border-color: #3c3c3c
+
+.alert-danger-inverse
+  background-color: #282828
+  border-color: #100002

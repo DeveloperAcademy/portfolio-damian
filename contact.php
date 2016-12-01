@@ -20,7 +20,7 @@ if (!empty($form_data)) {
         $errors['message'] = "Message in required";
     }
     if (strcasecmp($form_data['answer'], $good_answer) != 0) {
-        $errors['answer'] = "The answer is incorrect! The correct answer is \"Paris\"";
+        $errors['answer'] = "The answer is incorrect! The correct answer is \"$good_answer\"";
     }
     if (empty($errors)) {
         $to = 'damian.terebun@gmail.com';
@@ -48,7 +48,7 @@ if (!empty($form_data)) {
     $form_data['name'] = '';
 }
 ?>
-
+<h1 class="page-title">Send me message</h1>
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
@@ -62,7 +62,7 @@ if (!empty($form_data)) {
                 <?php
                 if (!empty($errors)):
                     ?>
-                    <div class="alert alert-danger" role="alert">
+                    <div class="alert alert-danger alert-danger-inverse" role="alert">
                         <h4><strong>Oh snap!</strong> In the form are errors:</h4>
                         <ul>
                             <?php
@@ -74,7 +74,7 @@ if (!empty($form_data)) {
                     <?php
                 endif;
                 ?>
-                <form action="index.php?p=contact" method="post">
+                <form class="form-inverse" action="index.php?p=contact" method="post">
                     <div class="form-group">
                         <label for="input-email">Email address:</label>
                         <input value="<?php echo $form_data['email'] ?>" type="email" class="form-control"
